@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactUs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    background-color: #2a0f46;
+    position: relative;
+    width: 100% !important;
+    height: 280px;
+}
+
+.contact-heading{
+    position: absolute;
+    color: #fff;
+    top: 50px;
+    left: 300px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-para{
+    position: absolute;
+    color: #fff;
+    width: 540px;
+    top: 120px;
+    left: 300px;
+}
+
+.bg-side{
+    width: 320px;
+    height: auto;
+}
+
+@media(max-width:350px){
+
+    .contact-heading{
+        top: 20px;
+        left: 50px;
+        font-size: 40px;
+    }
+    
+    .contact-para{
+        width: 220px;
+        top: 80px;
+        left: 50px;
+    }
+
+    .bg-side{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media(min-width:350px) and (max-width:500px){
+
+    .contact-heading{
+        top: 30px;
+        left: 60px;
+        font-size: 40px;
+    }
+    
+    .contact-para{
+        width: 270px;
+        top: 100px;
+        left: 60px;
+    }
+}
+
+@media(min-width:500px) and (max-width:650px){
+
+    .contact-heading{
+        top: 30px;
+        left: 80px;
+        font-size: 42px;
+    }
+    
+    .contact-para{
+        width: 370px;
+        top: 100px;
+        left: 80px;
+    }
+}
+
+@media(min-width:650px) and (max-width:768px){
+
+    .contact-heading{
+        top: 45px;
+        left: 100px;
+        font-size: 45px;
+    }
+    
+    .contact-para{
+        width: 400px;
+        top: 110px;
+        left: 100px;
+    }
+}
+
+@media(min-width:768px) and (max-width:800px){
+
+    .contact-heading{
+        top: 45px;
+        left: 100px;
+        font-size: 45px;
+    }
+    
+    .contact-para{
+        width: 400px;
+        top: 110px;
+        left: 100px;
+    }
+
+    .bg-side{
+        width: 250px;
+        height: auto;
+    }
+}
+
+
+
+
+@media(min-width:800px) and (max-width:1000px){
+
+    .contact-heading{
+        top: 60px;
+        left: 150px;
+        font-size: 45px;
+    }
+    
+    .contact-para{
+        width: 420px;
+        top: 135px;
+        left: 150px;
+    }
+
+    .bg-side{
+        width: 250px;
+        height: auto;
+    }
+}
+
+
+input.form-control,select#inputGroupSelect03{
+    height: 46px;
+    background: #fff;
+}
+
+textarea.form-control{
+    background:#fff;
+}
+
+#label1{
+    color: black;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+
+.form-design{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 2rem rgb(0 0 0 / 10%);
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.policy{
+    color: #1264a3;
+    cursor: pointer;
+    word-break: break-word;
+}
+
+.contact2{
+    position: absolute;
+    top: 190px;
+}
+
+@media(max-width:400px){
+
+    .contact2{
+        position: absolute;
+        top: 220px;
+    }
+}
+
+@media(min-width:400px) and (max-width:550px){
+
+    .contact2{
+        position: absolute;
+        top: 220px;
+    }
+}
+
+@media(min-width:550px) and (max-width:768px){
+
+    .contact2{
+        position: absolute;
+        top: 210px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1000px){
+
+    .contact2{
+        position: absolute;
+        top: 230px;
+    }
+}
+        </style>
+</head>
+
+<body>
+   <div class="contact">
+
+    <h1 class="contact-heading">Contact us</h1>
+    <p class="contact-para">
+        Facing some issues or want to know more about us? 
+        Fill in the details below and one of our team members will love to talk to you about it. 
+
+
+    </p>
+   </div>
+
+   <div class="container-fluid contact2">
+       <div class="row">
+           <div class="col-lg-1 col-md-1 col-12">
+
+           </div>
+
+           <div class="col-lg-6 col-md-6 col-12 form-design">
+
+               <form action="/">
+
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <label id="label1" for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="You@example.com">
+                    </div>
+                </div>
+
+                <div class="row align-items-center mt-4">
+                    <div class="col">
+                        <label id="label1" for="fullname" class="input">Name</label>
+                        <input type="text" name="fname" id="fullname" class="form-control" placeholder="Your Name...">
+                    </div>
+                  </div>
+
+                  <div class="row align-items-center my-4">
+                    <div class="col">
+                        <label id="label1" class="input" for="floatingTextarea2">Message</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Comments...</label>
+                          </div>
+                    </div>
+                  </div>
+
+                  <div class="mt-3 mb-5">
+                      <button type="button" class="btn btn-outline-dark">GET HELP</button>
+
+                  </div>
+
+                  <a href="#" class="policy"><p>Privacy Policy</p></a>
+            </form>
+
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-12">
+               
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-12">
+           <img class="bg-side" src="ce-agents-contact.png" alt="bg-side">    
+        </div>
+
+        <div class="col-lg-1 col-md-1 col-12">
+               
+        </div>
+        
+       </div>
+   </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
